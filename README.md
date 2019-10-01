@@ -1,6 +1,6 @@
 # label-it
 
-## How install
+## How to install
 ```
 $ cd client
 $ npm install
@@ -13,14 +13,14 @@ $ pip install Flask psycopg2 Flask-SQLAlchemy Flask-Migrate Flask-Script Flask-C
 $ set FLASK_APP=app.py
 ```
 
-## How run
-Server run
+## How to run
+Server
 ```
 $ cd server
 $ set FLASK_ENV=development 
 $ flask run
 ```
-Client run
+Client
 ```
 $ cd client
 $ npm run serve
