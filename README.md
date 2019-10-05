@@ -9,7 +9,7 @@ $ npm install
 $ cd server
 $ python -3 -m venv venv
 $ venv/Scripts/activate
-$ pip install Flask psycopg2 Flask-SQLAlchemy Flask-Migrate Flask-Script Flask-Cors
+$ pip install Flask psycopg2 Flask-SQLAlchemy Flask-Migrate Flask-Script Flask-Cors Flask-Hashing
 $ set FLASK_APP=app.py
 ```
 
