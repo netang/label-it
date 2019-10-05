@@ -29,3 +29,5 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['JSON_AS_ASCII'] = False
 db.init_app(app)
 
+from api.tasks import tasks_module
+app.register_blueprint(tasks_module)

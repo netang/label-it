@@ -8,3 +8,11 @@ class Tasks(db.Model):
     __tablename__ = 'tasks'
     id = db.Column(db.Integer, primary_key = True)
     name = Column(String)
+
+    @property
+    def serialize(self):
+        """Return object data in easily serializeable format"""
+        return {
+            'id'             : self.id,
+            'name'           : self.name
+        }
