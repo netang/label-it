@@ -1,6 +1,23 @@
 <template>
   <div id="app">
-    1
+    <div class="row">
+      <div class="col-md-4">
+        <table class="table table-striped table-hover alert">
+          <thead>
+            <tr>
+              <th scope="col">Имя разметки</th>
+              <th scope="col">Описание</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Разметка топиков</th>
+              <td>...</td>
+            </tr>
+          </tbody>
+        </table>
+  </div>
+    </div>
   </div>
 </template>
 
