@@ -7,8 +7,17 @@ $ npm install
 ```
 ```
 $ cd server
-$ python -3 -m venv venv
+
+On Linux:
+$ python3 -m venv venv
+On Windows:
+$ py -3 -m venv venv
+
+On Linux:
+$ . venv/bin/activate
+On Windows:
 $ venv/Scripts/activate
+
 $ pip install Flask psycopg2 Flask-SQLAlchemy Flask-Migrate Flask-Script Flask-Cors Flask-Hashing
 $ set FLASK_APP=app.py
 ```
