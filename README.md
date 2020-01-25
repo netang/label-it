@@ -1,10 +1,12 @@
 # label-it
 
 ## How to install
+Client
 ```
 $ cd client
 $ npm install
 ```
+Server
 ```
 $ cd server
 
@@ -16,10 +18,14 @@ $ py -3 -m venv venv
 On Linux:
 $ . venv/bin/activate
 On Windows:
-$ venv/Scripts/activate
+$ venv\Scripts\activate
 
-$ pip install Flask psycopg2 Flask-SQLAlchemy Flask-Migrate Flask-Script Flask-Cors Flask-Hashing
+$ pip install -r requirements.txt
 $ set FLASK_APP=app.py
+```
+Database
+```
+python manage.py db upgrade
 ```
 
 ## How to run
